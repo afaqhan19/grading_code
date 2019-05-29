@@ -1,0 +1,11 @@
+grade = int(input("Enter your marks to see your grade= "))
+if (grade >= 90):
+    print("excellent! you have got A grade")
+elif (90 < grade >= 80):
+    print("congrats! you have got B grade")
+elif (80 < grade >= 70):
+    print("good! you have got C grade, try hard next time :)")
+elif (70 < grade >= 60):
+    print("nice! you have got D grade. Need hard work :')")
+elif (grade < 60):
+    print("sorry! bro you got failed")
